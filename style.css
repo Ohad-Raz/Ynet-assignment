@@ -8,7 +8,7 @@ body {
   width: 1240px;
   margin-right: auto;
   margin-left: auto;
-  height: auto;
+  height: 1700px;
 }
 
 .topAd {
@@ -65,7 +65,6 @@ body {
   margin-left: 15px;
 }
 #redmail {
-  margin-right: 15px;
   display: flex;
   align-items: center;
 }
@@ -78,6 +77,7 @@ body {
 #login {
   font-size: 13px;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 .leftlinks {
@@ -107,6 +107,7 @@ body {
   background-repeat: no-repeat;
   background-size: 52px 19px;
   background-position: 98%;
+  cursor: pointer;
 }
 
 a {
@@ -119,6 +120,51 @@ a {
   top: 0%;
   flex-direction: column;
   z-index: 200;
+}
+
+.accessibilty {
+  position: fixed;
+  left: -12px;
+  top: 100px;
+  width: 55px;
+  height: 46px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 900;
+}
+
+.butterfly {
+  height: 25px;
+  width: 25px;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.butterflybutton {
+  position: fixed;
+  top: 160px;
+  left: -16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: flex-end;
+  z-index: 5;
+}
+
+.butterflybutton:hover {
+  transition: 0.5s;
+  width: 60px;
+}
+
+.movingbackground {
+  width: 50px;
+  height: 29px;
+  background: #24aae2;
+  border-radius: 0 30px 30px 0;
+  float: left;
 }
 
 .rednav {
@@ -448,6 +494,11 @@ h1 {
   cursor: pointer;
 }
 
+.linkmainarticle {
+  color: #000;
+  text-decoration: none;
+}
+
 .credits {
   font-size: 15px;
   font-weight: 500;
@@ -557,7 +608,6 @@ h1 {
   height: 113px;
   position: relative;
   background-color: #de1a1a;
-  cursor: pointer;
 }
 
 .firstlistarticlejpg {
@@ -574,7 +624,6 @@ h1 {
   height: 113px;
   position: relative;
   background-color: #1417ac;
-  cursor: pointer;
 }
 
 .secondlistarticlejpg {
@@ -591,7 +640,6 @@ h1 {
   height: 113px;
   position: relative;
   background-color: #de1a1a;
-  cursor: pointer;
 }
 
 .thirdlistarticlejpg {
@@ -608,7 +656,6 @@ h1 {
   height: 113px;
   position: relative;
   background-color: #0c1c3a;
-  cursor: pointer;
 }
 
 .fourthlistarticlejpg {
@@ -623,7 +670,6 @@ h1 {
   width: 40.35vw;
   height: 100%;
   position: absolute;
-
   left: 51.3%;
 }
 
@@ -675,8 +721,139 @@ h1 {
   height: 509px;
 }
 
+.containermoretitlesbelow {
+  position: relative;
+  padding-bottom: 0;
+  width: 1240px;
+  right: 0px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.containerforbigtitles {
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.textbigtitles {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.righttexttitle {
+  width: 48.6%;
+  display: flex;
+  height: 30px;
+  background-color: #1417ac;
+  margin-left: 1.1vw;
+  padding-right: 10px;
+  align-self: center;
+}
+
+.lefttexttitle {
+  background-color: #1417ac;
+  width: 49.9%;
+  height: 30px;
+  padding-right: 10px;
+  display: flex;
+  align-self: center;
+}
+
+.imgstitles {
+  margin-right: -0.45vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 190px;
+  height: 107px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.textareaimg {
+  height: 60px;
+  margin-bottom: 7px;
+  direction: rtl;
+}
+
+.imagesformoretitlesright {
+  width: 184px;
+  margin-right: 6.25px;
+  height: 107px;
+}
+.imagesformoretitlesleft {
+  width: 195px;
+  height: 107px;
+
+  margin-right: -3.2px;
+}
+
+.mediumtextleft {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  height: 60px;
+  color: black;
+  direction: rtl;
+}
+
+.mediumtextleft:hover {
+  color: #1737c3;
+}
+
+.mediumtextright {
+  margin-right: 5.9px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  height: 60px;
+  color: black;
+  direction: rtl;
+}
+.mediumtextright:hover {
+  color: #1737c3;
+}
+
+.moredetailstextright {
+  font-size: 13px;
+  max-height: 20px;
+  line-height: 12px;
+  margin-top: 8px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  height: auto;
+  font-weight: 300;
+  color: #78787b;
+  direction: rtl;
+  float: right;
+  margin-right: 5.9px;
+}
+
+.moredetailstextleft {
+  font-size: 13px;
+  max-height: 20px;
+  line-height: 20px;
+  margin-top: 8px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  height: auto;
+  font-weight: 300;
+  color: #78787b;
+  direction: rtl;
+  float: right;
+}
+
+.imgtitle1 {
+  margin-left: 20px;
+}
+
 .pointerarticlediv {
   position: relative;
+  top: 120px;
   display: inline-flex;
   width: 1220px;
   height: 600px;
@@ -688,9 +865,4 @@ h1 {
   height: 100%;
   width: 77.5%;
   cursor: pointer;
-}
-
-.linkmainarticle {
-  text-decoration: none;
-  color: #000;
 }
