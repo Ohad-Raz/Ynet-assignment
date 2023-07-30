@@ -342,10 +342,11 @@ body {
   margin-top: 5vh;
   width: 35vw;
   height: 55vh;
-  border: 1px solid rgba(0, 0, 0, 0);
-  position: absolute;
+  /* border: 1px solid rgba(0, 0, 0, 0.021); */
+  position: relative;
 }
 .datebigarticle {
+  display: flex;
   font-size: 18px;
   line-height: 24px;
   color: #000;
@@ -361,6 +362,7 @@ body {
   vertical-align: middle;
   overflow: hidden;
   display: flex;
+  position: absolute;
   font-weight: bold;
   /* width: 533px; */
   margin: 0.9375vw 2.8125vw;
@@ -369,16 +371,210 @@ body {
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  /* text-align: right;
-  position: relative; */
+  cursor: pointer;
 }
 
 .bigarticletext {
-  margin-top: -4vh;
-  font-size: 21x;
+  display: flex;
+  position: absolute;
+  margin-top: 26vh;
   /* width: 533px; */
   text-align: right;
-  position: relative;
   font-size: 18px;
   line-height: 26px;
+  cursor: pointer;
+}
+
+.credits {
+  font-size: 15px;
+  font-weight: 500;
+  color: #949494;
+  margin-top: 20.5vw;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  direction: rtl;
+  padding-bottom: 15.625vw;
+  position: absolute;
+  text-align: right;
+}
+
+.bigarticleimg {
+  width: 40.5vw;
+  height: 46vh;
+  position: absolute;
+  margin-top: -55vh;
+  display: inline-flex;
+  cursor: pointer;
+  direction: rtl;
+}
+
+.otherarticlebox {
+  position: relative;
+  top: -5.5vh;
+  min-height: 517px;
+  padding-bottom: 0;
+  width: 81vw;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  display: block;
+  direction: ltr;
+  line-height: 1.15;
+}
+
+.otherarticlegrid {
+  width: 50%;
+  position: absolute;
+  top: -2vh;
+  margin-left: -50%;
+}
+
+.listtitleheader {
+  color: white;
+  font-size: 19px;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  direction: rtl;
+  cursor: pointer;
+  text-align: right;
+  width: 67%;
+  padding-top: 2%;
+}
+
+.listtext {
+  color: white;
+  width: 66%;
+  margin-left: 1.2%;
+  text-align: right;
+  margin-top: -2%;
+  font-size: 15px;
+}
+
+.creditslist1 {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  margin-left: 6.8%;
+  position: absolute;
+  bottom: 1.5vh;
+}
+.creditslist2 {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  margin-left: 8.5%;
+  position: absolute;
+  bottom: 1.5vh;
+}
+
+.creditslist3 {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  margin-left: 10.3%;
+  position: absolute;
+  bottom: 1.5vh;
+}
+
+.creditslist4 {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  position: absolute;
+  bottom: 1.5vh;
+  margin-left: -5.6%;
+}
+
+.firstlistarticle {
+  /* display: flex;
+flex-direction: column;
+    box-sizing: border-box;
+text-align: right;
+padding: 13px 8px;
+text-decoration: none;
+display: flex;*/
+  width: 100%;
+  height: 113px;
+  position: relative;
+  background-color: #de1a1a;
+}
+
+.firstlistarticlejpg {
+  width: 200px;
+  height: 113px;
+  position: absolute;
+  display: flex;
+  right: 0px;
+}
+
+.secondlistarticle {
+  margin-top: 2vh;
+  width: 100%;
+  height: 113px;
+  position: relative;
+  background-color: #1417ac;
+}
+
+.secondlistarticlejpg {
+  width: 200px;
+  height: 113px;
+  position: absolute;
+  display: flex;
+  right: 0px;
+}
+
+.thirdlistarticle {
+  margin-top: 2vh;
+  width: 100%;
+  height: 113px;
+  position: relative;
+  background-color: #de1a1a;
+}
+
+.thirdlistarticlejpg {
+  width: 200px;
+  height: 113px;
+  position: absolute;
+  display: flex;
+  right: 0px;
+}
+
+.fourthlistarticle {
+  margin-top: 2vh;
+  width: 100%;
+  height: 113px;
+  position: relative;
+  background-color: #0c1c3a;
+}
+
+.fourthlistarticlejpg {
+  width: 200px;
+  height: 113px;
+  position: absolute;
+  display: flex;
+  right: 0px;
+}
+
+.commercialcontainer {
+  width: 28vw;
+  height: 100%;
+  position: relative;
+  background-color: #949494;
+}
+.commerciallistarticle {
+  display: block;
+  width: 10vw;
+  height: 10vh;
+  border: 1px solid black;
+}
+
+.commerciallistarticle1 {
+}
+.commerciallistarticle2 {
+}
+.commerciallistarticle3 {
 }
