@@ -674,3 +674,23 @@ h1 {
   width: 300px;
   height: 509px;
 }
+
+.pointerarticlediv {
+  position: relative;
+  display: inline-flex;
+  width: 1220px;
+  height: 600px;
+}
+
+.pointerarticlepng {
+  position: absolute;
+  left: -10px;
+  height: 100%;
+  width: 77.5%;
+  cursor: pointer;
+}
+
+.linkmainarticle {
+  text-decoration: none;
+  color: #000;
+}
